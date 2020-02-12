@@ -1,7 +1,12 @@
 
-This repository pretends to be a useful guide of Fortran tricks. I will list and explain all the problem I run into. 
-I tend to programme using the Fortran90 version of this language, but I don't discard using a newer one.
+This repository pretends to be a useful guide of Fortran tricks. I will list and explain
+all the problem I run into. 
+I tend to programme using the Fortran90 version of this language, but I don't discard using
+a newer one.
 
 Index:
 
-1. 
+1. FaAoS = (F)unction (a)s (A)rgument (o)f (S)ubroutine
+   	   This trick is useful when you need to do the same procedure with different
+	   functions. This way allows you to be sure of the correct working of the global
+	   subroutine.

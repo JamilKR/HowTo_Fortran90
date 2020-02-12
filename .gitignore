@@ -1,0 +1,10 @@
+*.o
+*~
+*.mod
+*.pyc
+*.a
+*.so
+*.aux
+*.log
+*.out
+
