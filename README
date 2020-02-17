@@ -10,3 +10,9 @@ Index:
    	   This trick is useful when you need to do the same procedure with different
 	   functions. This way allows you to be sure of the correct working of the global
 	   subroutine.
+
+2. OMPwL = (O)pen(M)(P) (w)ithout (L)oops
+   	   The easier and most common way to parallelize (as far as I know) a program
+	   is parallelizing an external loop, but ... what happens if you want to
+	   compute 3 different jobs in 3 different threads at the same time? Here a
+	   modest example.
