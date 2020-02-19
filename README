@@ -16,3 +16,7 @@ Index:
 	   is parallelizing an external loop, but ... what happens if you want to
 	   compute 3 different jobs in 3 different threads at the same time? Here a
 	   modest example.
+
+3. SoaGF = (S)tatus (o)f (a) (G)iven (F)ile
+   	   This is a easy way to know if a file exists or not. If it exists, the program
+	   will read it, if not, the program will create and write something.
